@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "601469808962",
+    "project_id": "chatapp-2901d",
+    "storage_bucket": "chatapp-2901d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:601469808962:android:dbe6b394e0718ea562d8db",
+        "android_client_info": {
+          "package_name": "com.iohardik.chatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "601469808962-qmpdd6bg3vbfmavognqdlt65jelei72m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2E41mOl-rKxM6MMHHtyvo-RGoC5_ef98"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "601469808962-qmpdd6bg3vbfmavognqdlt65jelei72m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:601469808962:android:1a206131090a291962d8db",
+        "android_client_info": {
+          "package_name": "com.iohardik.chatmobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "601469808962-qmpdd6bg3vbfmavognqdlt65jelei72m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2E41mOl-rKxM6MMHHtyvo-RGoC5_ef98"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "601469808962-qmpdd6bg3vbfmavognqdlt65jelei72m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

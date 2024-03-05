@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff"
+    tools:context=".Home.MainActivity">
+    <include layout="@layout/activity_nav" />
+<!--    <View-->
+<!--        android:id="@+id/horizontalLine"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="1dp"-->
+<!--        android:layout_below="@id/message"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:background="@color/black"/>-->
+<!--    <View-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:background="#535151"-->
+<!--        android:layout_marginBottom="15dp"-->
+<!--        android:layout_marginTop="9dp"-->
+<!--        android:layout_height="1dp"/>-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+
+
+        android:orientation="vertical">
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/mRec"
+            android:scrollbars="vertical"
+            tools:listitem="@layout/item_profile"
+            android:layout_width="match_parent"
+            android:layout_height="650dp"
+            android:layout_marginBottom="1dp"
+            android:paddingBottom="40dp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="87dp"
+        android:background="@color/teal_200"
+
+
+        >
+        <include layout="@layout/activity_bottom"/>
+    </LinearLayout>
+</LinearLayout>

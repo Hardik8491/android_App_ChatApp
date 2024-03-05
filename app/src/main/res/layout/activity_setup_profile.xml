@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:background="#F5F5F5"
+    android:gravity="center_horizontal"
+   tools:context=".Activty.SetupProfileActivity">
+  <de.hdodenhof.circleimageview.CircleImageView
+      android:id="@+id/Profile_img"
+      android:layout_marginTop="32dp"
+      android:layout_width="150dp"
+      android:src="@drawable/profile_image"
+      android:layout_height="150dp"/>
+
+
+<TextView
+    android:text="Profile Information"
+    android:textAlignment="center"
+    android:layout_marginTop="19dp"
+    android:textSize="20sp"
+    android:textStyle="bold|normal"
+android:textColor="#010C51"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    />
+
+  <TextView
+      android:text="Plese set you name and an optional Profile Image"
+      android:textAlignment="center"
+    android:id="@+id/SmallText"
+      android:textSize="13sp"
+      android:textStyle="bold|normal"
+      android:textColor="#323235"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+
+      />
+
+  <androidx.cardview.widget.CardView
+      app:cardUseCompatPadding="true"
+      app:cardCornerRadius="8dp"
+      app:cardElevation="10dp"
+      app:cardBackgroundColor="@color/white"
+
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="15dp"
+        android:background="@color/white"
+        android:layout_margin="15dp"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+      <EditText
+          android:id="@+id/ProfileName"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginBottom="15dp"
+
+          android:background="@drawable/background_shape"
+          android:ems="1"
+          android:textColorHint="#A01C1C1C"
+          android:hint="Type Your UserName"
+
+          android:inputType="text"
+          android:maxLength="10"
+          android:minHeight="48dp"
+          android:padding="10dp"
+          android:textColor="#211F1F"
+          android:textSize="20sp"
+          android:textStyle="bold|normal"
+          android:autofillHints=""
+          tools:ignore="TextFields,VisualLintTextFieldSize" />
+
+      <Button
+          android:id="@+id/SetupBtn"
+          android:layout_width="match_parent"
+
+          android:layout_height="wrap_content"
+          android:backgroundTint="#036007 "
+          android:text="Setup Profile"
+          android:textAllCaps="false"
+
+
+          android:textColor="#FFFFFF"
+          android:textSize="16sp"
+          android:textStyle="bold|normal"
+          tools:ignore="HardcodedText,TextSizeCheck,VisualLintButtonSize,TextContrastCheck" />
+
+
+
+    </LinearLayout>
+
+
+  </androidx.cardview.widget.CardView>
+
+
+
+</LinearLayout>

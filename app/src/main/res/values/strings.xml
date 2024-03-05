@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">ChatApp</string>
+    <string name="veryfy_91123456789">Veryfy +91123456789</string>
+    <string name="enter_the_otp_code_to_verify_your_phon_number">Enter The OTP code To Verify Your Phon Number</string>
+    <string name="todo">TODO</string>
+
+    <string name="type_your_phone_number">Type your Phone Number</string>
+    <string name="otp_verification">OTP Verification</string>
+    <string name="we_will_send_you_an">We will send you an</string>
+    <string name="one_time_password">One Time Password</string>
+    <string name="on_this_mobile_number">on this mobile Number...</string>
+    <string name="title_activity_navigation">Navigation</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="_12_02_2024">12-02-2024</string>
+    <string name="title_activity_navigationbutton">NavigationbuttonActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+</resources>
